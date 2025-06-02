@@ -1,0 +1,42 @@
+{
+  "rules": {
+    "transactions": {
+      "$userId": {
+        ".read": "auth != null && auth.uid === $userId",
+        ".write": "auth != null && auth.uid === $userId",
+        "$transactionId": {
+          ".read": "auth != null && auth.uid === $userId",
+          ".write": "auth != null && auth.uid === $userId"
+        }
+      }
+    },
+    "categories": {
+      "$userId": {
+        ".read": "auth != null && auth.uid === $userId",
+        ".write": "auth != null && auth.uid === $userId",
+        "$categoryType": {
+          "$categoryId": {
+            ".read": "auth != null && auth.uid === $userId",
+            ".write": "auth != null && auth.uid === $userId"
+          }
+        }
+      }
+    },
+    "shopping-lists": {
+      "$userId": {
+        ".read": "auth != null && auth.uid === $userId",
+        ".write": "auth != null && auth.uid === $userId",
+        "$listId": {
+          ".read": "auth != null && auth.uid === $userId",
+          ".write": "auth != null && auth.uid === $userId"
+        }
+      }
+    },
+    "creditCardSettings": {
+      "$userId": {
+        ".read": "auth != null && auth.uid === $userId",
+        ".write": "auth != null && auth.uid === $userId"
+      }
+    }
+  }
+}
