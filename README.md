@@ -1,16 +1,16 @@
 # 🐦 Tucano
 
-> **Organize suas finanças e controle suas compras com clareza e leveza.**
-
 <div align="center">
   <img src="https://i.postimg.cc/kMLz6myM/img0.png" alt="Capa Tucano" width="800"/>
+  
+  <p><em>Organize suas finanças e controle suas compras com clareza e leveza</em></p>
+  
+  [![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue.svg)](LICENSE)
+  [![React](https://img.shields.io/badge/React-18.x-61DAFB.svg?logo=react)](https://reactjs.org/)
+  [![Firebase](https://img.shields.io/badge/Firebase-9.x-FFCA28.svg?logo=firebase)](https://firebase.google.com/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
+  [![Vite](https://img.shields.io/badge/Vite-4.x-646CFF.svg?logo=vite)](https://vitejs.dev/)
 </div>
-
-[![Deploy Firebase](https://img.shields.io/badge/Demo-Firebase-orange?logo=firebase)](https://tucano-financas.web.app/shopping)
-[![Next.js](https://img.shields.io/badge/Next.js-14.x-black?logo=next.js)](https://nextjs.org/)
-[![GraphQL](https://img.shields.io/badge/GraphQL-API-ff4081?logo=graphql)](https://graphql.org/)
-[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)](https://www.typescriptlang.org/)
 
 ---
 
