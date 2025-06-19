@@ -78,41 +78,10 @@ Acesse o projeto em produção:
 
 ## ⚙️ Tecnologias Utilizadas
 
-- **Framework:** [Next.js](https://nextjs.org/) (com SSR e SSG)
+- **Framework:** [Vite e React](https://react.dev/)
 - **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
 - **Estilo:** [Tailwind CSS](https://tailwindcss.com/)
 - **Autenticação e deploy inicial:** Firebase
-- **API (prevista):** GraphQL (Apollo Server)
-- **Banco (previsto):** PostgreSQL (Railway)
-- **Deploy:** Vercel
-
----
-
-## 🛠️ Instalação Local
-
-### Pré-requisitos
-
-- Node.js 18+
-- Conta no Firebase ou Vercel
-- (Futuro: backend GraphQL + PostgreSQL)
-
-### Passos
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/tucano.git
-cd tucano
-
-# Instale as dependências
-npm install
-
-# Configure variáveis de ambiente
-cp .env.example .env
-# Edite com suas configurações
-
-# Inicie o servidor local
-npm run dev
-```
 
 ---
 
